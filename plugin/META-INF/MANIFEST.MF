@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.0
+Created-By: 24.71-b01 (Oracle Corporation)
+Implementation-Vendor: NextLabs, Inc.
+Implementation-Title: Policy Controller for Microsoft Windows
+Implementation-Version: 8.0.0.6 (4)
+Implementation-Time: Fri, 17 Mar 2017 14:20:00 +0800
+Provider-Class: com.nextlabs.destiny.plugin.AttributeDataProvider

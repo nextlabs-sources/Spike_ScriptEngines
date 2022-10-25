@@ -1,0 +1,67 @@
+{
+    "Request": {
+        "ReturnPolicyIdList": "true",
+        "Category": [
+            {
+                "CategoryId": "urn:oasis:names:tc:xacml:1.0:subject-category:access-subject",
+                "Attribute": [
+                    {
+                        "AttributeId": "urn:oasis:names:tc:xacml:1.0:subject:subject-id",
+                        "Value": "subject_1",
+                        "IncludeInResult": "false"
+                    }
+                ]
+            },
+            {
+                "CategoryId": "urn:oasis:names:tc:xacml:3.0:attribute-category:resource",
+                "Attribute": [
+                    {
+                        "DataType": "http://www.w3.org/2001/XMLSchema#anyURI",
+                        "AttributeId": "urn:oasis:names:tc:xacml:1.0:resource:resource-id",
+                        "Value": "resource_2",
+                        "IncludeInResult": "false"
+                    },
+                    {
+                        "DataType": "http://www.w3.org/2001/XMLSchema#anyURI",
+                        "AttributeId": "urn:nextlabs:names:evalsvc:1.0:resource:resource-type",
+                        "Value": "doc",
+                        "IncludeInResult": "false"
+                    }
+                ]
+            },
+            {
+                "CategoryId": "urn:oasis:names:tc:xacml:3.0:attribute-category:action",
+                "Attribute": [
+                    {
+                        "DataType": "http://www.w3.org/2001/XMLSchema#string",
+                        "AttributeId": "urn:oasis:names:tc:xacml:1.0:action:action-id",
+                        "Value": "EDIT",
+                        "IncludeInResult": "false"
+                    }
+                ]
+            },
+            {
+                "CategoryId": "urn:nextlabs:names:evalsvc:1.0:attribute-category:application",
+                "Attribute": [
+                    {
+                        "DataType": "http://www.w3.org/2001/XMLSchema#string",
+                        "AttributeId": "urn:nextlabs:names:evalsvc:1.0:application:application-id",
+                        "Value": "MSExcel",
+                        "IncludeInResult": "false"
+                    }
+                ]
+            },
+            {
+                "CategoryId": "urn:oasis:names:tc:xacml:3.0:attribute-category:environment",
+                "Attribute": [
+                    {
+                        "DataType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                        "AttributeId": "urn:oasis:names:tc:xacml:1.0:environment:current-dateTime",
+                        "Value": "1999-05-31T13:20:00-05:00",
+                        "IncludeInResult": "false"
+                    }
+                ]
+            }
+        ]
+    }
+}

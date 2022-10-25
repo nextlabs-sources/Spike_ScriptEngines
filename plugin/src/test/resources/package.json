@@ -1,0 +1,16 @@
+{
+  "name": "pip-plugin-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script_1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "randomstring": "^1.1.5",
+    "request": "^2.79.0"
+  }
+}

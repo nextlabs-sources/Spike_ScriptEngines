@@ -1,0 +1,1 @@
+console.log("this is an empty javascript file. Since there is no metadata, this script should not be loaded")
